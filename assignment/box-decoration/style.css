@@ -5,7 +5,7 @@ div {
     font-size: 30px;
     font-weight: bold;
 }
-/* 텍스트가 늘어날수도 있고 줄어들 수도 있는 것을 고려해서 사이즈를 고정하는게 아니라 유동적으로 바뀔 수 있도록 패딩값을 주는 방향으로 계발 */
+/* 텍스트가 늘어날수도 있고 줄어들 수도 있는 것을 고려해서 사이즈를 px로 고정하는게 아니라 유동적으로 바뀔 수 있도록 패딩값을 주는 방향으로 개발 */
 
 .box1 {
     padding: 15px;
@@ -23,8 +23,8 @@ div {
     background-clip: padding-box;
     color: white;
 }
-/* focus가 outline에도 가기에
-사용자에게 혼동을 줄 수 있다.*/
+/* focus가 outline에도 가기에 사용자에게 혼동을 줄 수 있다.
+때문에 background-clip을 추천*/
 
 .box3 {
     padding: 20px;
