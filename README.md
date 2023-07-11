@@ -1,4 +1,4 @@
-# front-end_school7
+# front-end-school7
 프론트엔드 스쿨 7기 과정에서 만들어본 여러 과제들과 실습, 혼자 연습해본 내용을 기록합니다.
 
 ## 📚 과제
@@ -10,6 +10,11 @@
 ## 💡 실습
 ### 카드 UI
 <p align="center">
-<img width="300" alt="card-ui-1" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/b8377971-ca34-443a-969c-b3bddcbd3056">
+<img width="400" alt="card-ui-1" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/b8377971-ca34-443a-969c-b3bddcbd3056">
 <img width="300" alt="card-ui-2" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/cda08c66-2865-4480-b6be-c4b64eb3f898">
+</p>
+
+### 로그 UI
+<p align="center">
+<img width="500" alt="login-ui" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/e974a132-8e2a-40cd-bbde-e8dccb03e70a">
 </p>
