@@ -14,6 +14,11 @@
 <img width="300" alt="card-ui-2" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/cda08c66-2865-4480-b6be-c4b64eb3f898">
 </p>
 
+### 카드 리스트
+<p align="center">
+<img width="550" alt="카드리스트" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/4592a945-233f-4ca5-98f4-9ef781d70893">
+</p>
+
 ### 로그 UI
 <p align="center">
 <img width="500" alt="login-ui" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/e974a132-8e2a-40cd-bbde-e8dccb03e70a">
