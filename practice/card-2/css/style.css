@@ -1,0 +1,176 @@
+/* 폰트 */
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 초기화 */
+h1, h2, h3, p, body{
+    margin: 0;
+    padding: 0;
+}
+
+a, p {
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'Pretendard-Regular';
+}
+
+.card {
+    width: 288px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.10);
+}
+
+/* header */
+header {
+    display: flex;
+    gap: 16px;
+    padding: 16px 16px 12px 16px;
+}
+.profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* 말줄임 */
+.ell1 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.ell2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 1.6;
+    height: calc(1em * 2 * 1.6);
+}
+
+.c-h-text {
+    overflow: hidden;
+}
+
+
+.fwb {
+    font-weight: 700;
+    color: #29363D;
+}
+
+
+.c-h-text .fwb {
+    font-size: 16px;
+}
+
+.small-font {
+    font-size: 12px;
+    color: #5A6A72;
+}
+
+/* content */
+.thumbnail {
+    width: 100%;
+    aspect-ratio: 288/196;
+    object-fit: cover;
+    vertical-align: top;
+}
+
+.c-content {
+    padding: 10px 16px 20px 16px;
+}
+
+.c-content .ell2 {
+    margin-bottom: 16px;
+}
+
+/* read */
+.read {
+    width: 60px;
+    font-size: 14px;
+    text-decoration: underline;
+    padding: 3px 6px;
+
+    position: relative;
+}
+
+.read::after {
+    content: '';
+    display: block;
+
+    width: 4px;
+    height: 4px;
+
+    position: absolute;
+    right: 0;
+    top: 50%;
+
+    border-width: 2px 2px 0 0;
+    border-style: solid;
+    border-color: #29363D;
+
+    transform: translate(-9px, -50%) rotate(45deg);
+}
+
+/* 버튼 */
+
+.card {
+    position: relative;
+}
+
+.icons {
+    margin-right: 16px;
+    position: absolute;
+    right: 0;
+    bottom: 16px;
+}
+
+.icons button {
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.icons button img {
+    vertical-align: top;
+}
+
+/* 카드 리스트 */
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px 32px;
+}
+
+.notice {
+    width: 1224;
+
+    /* 좌우 여백 30px */
+    max-width: calc(100% - (30px * 2));
+    margin: 0 auto;
+}
+
+.notice h2 {
+    font-size: 30px;
+    margin: 32px 0;
+}
+
+
