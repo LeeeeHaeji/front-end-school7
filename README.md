@@ -9,14 +9,18 @@
 
 ### 테이블 만들기
 <p align="center">
-<img width="550" alt="표만들기" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/8e91dd4b-3162-4aef-8d0e-6f4d89c93697">
+<img width="600" alt="표만들기" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/8e91dd4b-3162-4aef-8d0e-6f4d89c93697">
 </p>
 
 ## 💡 실습
 ### 카드 UI
 <p align="center">
-<img width="400" alt="card-ui-1" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/b8377971-ca34-443a-969c-b3bddcbd3056">
-<img width="300" alt="card-ui-2" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/cda08c66-2865-4480-b6be-c4b64eb3f898">
+
+  |카드 ui 1| 카드 ui 2|
+  |-|-|
+  |<img width="400" alt="card-ui-1" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/b8377971-ca34-443a-969c-b3bddcbd3056">|<img width="400" alt="card-ui-2" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/cda08c66-2865-4480-b6be-c4b64eb3f898">|
+
+
 </p>
 
 ### 카드 리스트
@@ -28,3 +32,17 @@
 <p align="center">
 <img width="500" alt="login-ui" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/e974a132-8e2a-40cd-bbde-e8dccb03e70a">
 </p>
+
+### 버튼 만들기
+<div align="center">
+
+  |default|hover|
+  |-|-|
+  | <img width="400" alt="normal-button" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/a0a2ab61-0f59-4dc4-b374-caa639f3a9f0">| <img width="400" alt="hover" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/d7e4394e-cc97-4e85-b426-17ab3ec79745">|
+
+  |active|
+  |-|
+  |<img width="400" alt="active" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/b0c70253-c4b3-4153-949c-c4a0c7af6419">|
+  <p>이때 두번째 normal button은 disabled 상태이다.</p>
+</div>
+
