@@ -7,6 +7,11 @@
 <img width="300" alt="KakaoTalk_20230707_174024778" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/82149901-6fe9-4a5e-aa3f-e8f0a8ca216a">
 </p>
 
+### 테이블 만들기
+<p align="center">
+<img width="550" alt="표만들기" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/8e91dd4b-3162-4aef-8d0e-6f4d89c93697">
+</p>
+
 ## 💡 실습
 ### 카드 UI
 <p align="center">
