@@ -46,3 +46,8 @@
   <p>이때 두번째 normal button은 disabled 상태이다.</p>
 </div>
 
+### 프로필 페이지
+<p align="center">
+  <img width="600" alt="프로필" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/d6b206b9-b1f9-4f56-9a08-0adba6373ca9">
+</p>
+
