@@ -12,6 +12,11 @@
 <img width="600" alt="표만들기" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/8e91dd4b-3162-4aef-8d0e-6f4d89c93697">
 </p>
 
+### CSS 특강 과제1
+<p align="center">
+<img width="600" alt="부엉이 완성본" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/d5229693-25d1-408f-80ee-71ed946be353">
+</p>
+
 ## 💡 실습
 ### 카드 UI
 <p align="center">
