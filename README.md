@@ -19,18 +19,17 @@
 
 ## 💡 실습
 ### 카드 UI
-<p align="center">
-
+<div align="center">
+  
   |카드 ui 1| 카드 ui 2|
   |-|-|
   |<img width="400" alt="card-ui-1" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/b8377971-ca34-443a-969c-b3bddcbd3056">|<img width="400" alt="card-ui-2" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/cda08c66-2865-4480-b6be-c4b64eb3f898">|
-
-
-</p>
+  
+</div>
 
 ### 카드 리스트
 <p align="center">
-<img width="550" alt="카드리스트" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/4592a945-233f-4ca5-98f4-9ef781d70893">
+<img width="600" alt="카드리스트" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/4592a945-233f-4ca5-98f4-9ef781d70893">
 </p>
 
 ### 로그 UI
@@ -56,3 +55,7 @@
   <img width="600" alt="프로필" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/d6b206b9-b1f9-4f56-9a08-0adba6373ca9">
 </p>
 
+### 로그인 | 다이어리 페이지
+<p align="center">
+<img width="624" alt="다이어리-로그인" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/1da5df33-307e-41e9-bea1-d683b11fb66d">
+</p>
