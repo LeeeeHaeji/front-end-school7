@@ -59,3 +59,10 @@
 <p align="center">
 <img width="624" alt="다이어리-로그인" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/1da5df33-307e-41e9-bea1-d683b11fb66d">
 </p>
+
+### 카드 뒤집기
+<div align="center">
+  
+  ![카드뒤집기 실습](https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/b0f93890-9212-4713-b98b-da3a9b2e6a8d)
+  
+</div>
