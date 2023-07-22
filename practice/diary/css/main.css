@@ -1,0 +1,68 @@
+.main-form {
+
+}
+
+.daily {
+
+    padding-left: 39px;
+}
+
+.main {
+    display: flex;
+
+}
+
+.main .main-form{
+    border-right: 1px solid #ff4f6e;
+    padding-right: 39px;
+}
+
+.main-form {
+    width: 416px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.main-form h2 {
+
+    font-size: 16px;
+    font-weight: 700;
+
+    padding: 8px 0;
+    padding-left: 32px;
+    background-image: url(../images/heart.svg);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+}
+
+.main .title{
+    height: 48px;
+    border: none;
+    border-bottom: 1px solid #677880;
+    font-family: 'Pretendard-Regular';
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.textarea {
+    font-family: 'Pretendard-Regular';
+    height: 360px;
+    resize: none;
+    border-radius: 4px;
+    color: #677880;
+    padding-top: 15px;
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main-form button {
+    background-color: #29363D;
+    color: #F4F5F5;
+    font-size: 16px;
+    padding: 14px 0 15px 0;
+    border-radius: 4px;
+    font-weight: 700;
+}
