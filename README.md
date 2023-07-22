@@ -55,10 +55,16 @@
   <img width="600" alt="프로필" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/d6b206b9-b1f9-4f56-9a08-0adba6373ca9">
 </p>
 
-### 로그인 | 다이어리 페이지
-<p align="center">
-<img width="624" alt="다이어리-로그인" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/1da5df33-307e-41e9-bea1-d683b11fb66d">
-</p>
+### 다이어리 페이지
+<div align="center">
+  
+ |로그인|회원가입|
+ |-|-|
+ |<img width="624" alt="다이어리-로그인" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/1da5df33-307e-41e9-bea1-d683b11fb66d">|<img width="624" alt="프로필" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/79f9d2a9-e668-4b3d-85b5-b7b55d4c0a08">|
+ 
+</div>
+
+
 
 ### 카드 뒤집기
 <div align="center">
