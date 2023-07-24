@@ -12,9 +12,19 @@
 <img width="600" alt="표만들기" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/8e91dd4b-3162-4aef-8d0e-6f4d89c93697">
 </p>
 
+### 캐릭터 그리기
+<p align="center">
+<img width="400" alt="동숲 바닐라" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/01ceab71-cc34-4b00-a8f5-7753bfcfd4bd">
+</p>
+
 ### CSS 특강 과제1
 <p align="center">
 <img width="600" alt="부엉이 완성본" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/d5229693-25d1-408f-80ee-71ed946be353">
+</p>
+
+### CSS 특강 과제2
+<p align="center">
+<img width="600" alt="버킷리스트" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/51d83c9a-8623-4c16-9e24-fa0e6430b4de">
 </p>
 
 ## 💡 실습
