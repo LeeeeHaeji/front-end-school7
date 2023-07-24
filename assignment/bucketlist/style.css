@@ -1,0 +1,116 @@
+/* reset ----------------- */
+body, h1, h2, p {
+    margin: 0;
+
+    font-size: unset;
+    font-weight: unset;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.a11y-hidden {
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
+
+
+button {
+    background-color: unset;
+    border: none;
+
+    font-size: unset;
+    font-weight: unset;
+}
+
+/* 공통 css */
+body {
+    background-color: #D9D9D9;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: Arial;
+}
+
+.wrapper {
+    background-color: whitesmoke;
+    width: 448px;
+    margin: 0 auto;
+    border-radius: 20px;
+
+    overflow: hidden;
+}
+
+/* h1 */
+.title {
+    display: flex;
+    align-items: center;
+    padding: 46px 0;
+
+    font-size: 24px;
+    font-weight: 700;
+
+    color: #FF007A;
+    gap: 32px;
+    border-bottom: 4px solid #DDD;
+    background: #FFF;
+}
+
+.title::before {
+    content: "";
+    display: block;
+
+    width: 8px;
+    height: 32px;
+
+    border-radius: 0px 10px 10px 0px;
+    background: #FF007A;
+}
+
+/* ul, li */
+.list {
+    width: 372px;
+
+    padding: 40px 38px 38px;
+    background-color: #EEEEEE;
+
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.li-btn label {
+    display:block;
+    border-radius: 10px;
+    border: 4px solid #D9D9D9;
+    border-radius: 10px;
+
+    font-size: 16px;
+    font-weight: 400;
+    color: #888888;
+    padding: 15px 0 15px 15px;
+
+    background-color: #FFF;
+    text-align: start;
+}
+
+input[type="checkbox"]:checked + label{
+    background-image: url(./images/Frame.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: right 14px bottom 50%;
+
+    color: #759CFF;
+    font-weight: 700;
+    border: 4px solid #759CFF;
+}
+
