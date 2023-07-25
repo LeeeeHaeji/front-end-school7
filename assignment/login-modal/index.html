@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인/회원가입 모달</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <section class="modal">
+        <h1 class="title">로그인 또는 회원가입</h1>
+        <button type="button" class="close">
+            <img src="./images/close.png" alt="">
+        </button>
+        <form>
+            <p class="intro">위니브에서 여러분의 궁금증을 해결하세요!:)</p>
+            <input class="id-text" type="text" placeholder="아이디" required>
+            <input type="password" placeholder="비밀번호" required>
+
+            <input class="a11y-hidden" type="checkbox" id="keep-login">
+            </input>
+            <label for="keep-login">로그인 상태 유지</label>
+
+            <button class="login-btn" type="submit">로그인</button>
+        </form>
+        <div class="join-find">
+            <a href="#">회원가입</a>
+            <span>|</span>
+            <a href="#">아이디/비밀번호 찾기</a>
+        </div>
+        <hr>
+        <article class="login-wrapper">
+            <h2 class="a11y-hidden">
+                소셜 계정으로 로그인
+            </h2>
+            <ul>
+                <li>
+                    <a href="#">
+                        구글 계정으로 로그인
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        페이스북 계정으로 로그인
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        네이버 계정으로 로그인
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        카카오톡 계정으로 로그인
+                    </a>
+                </li>
+            </ul>
+        </article>
+    </section>
+</body>
+</html>
