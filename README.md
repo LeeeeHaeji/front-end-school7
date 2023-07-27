@@ -27,6 +27,11 @@
 <img width="600" alt="버킷리스트" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/51d83c9a-8623-4c16-9e24-fa0e6430b4de">
 </p>
 
+### 로그인 모달창
+<p align="center">
+<img width="500" alt="로그인 모달창" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/7edb5738-c0d4-4759-9cb8-bd2c165aac1f">
+</p>
+
 ## 💡 실습
 ### 카드 UI
 <div align="center">
@@ -44,7 +49,7 @@
 
 ### 로그 UI
 <p align="center">
-<img width="500" alt="login-ui" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/e974a132-8e2a-40cd-bbde-e8dccb03e70a">
+<img width="300" alt="login-ui" src="https://github.com/LeeeeHaeji/front-end-school7/assets/116999139/e974a132-8e2a-40cd-bbde-e8dccb03e70a">
 </p>
 
 ### 버튼 만들기
