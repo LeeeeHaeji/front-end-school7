@@ -5,38 +5,6 @@
     font-style: normal;
 }
 
-/* reset -------------- */
-h1, h2, p {
-    margin: 0;
-    font-size: unset;
-    font-weight: unset;
-}
-
-body, input, hr {
-    margin: 0;
-    padding: 0;
-    border: none;
-
-}
-
-ul, li {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-button {
-    border: none;
-    background-color: unset;
-    font-size: unset;
-    padding: 0;
-}
-
-a{
-    text-decoration: none;
-    color: unset;
-}
-
 .a11y-hidden {
     clip: rect(1px, 1px, 1px, 1px);
     clip-path: inset(50%);
@@ -48,95 +16,169 @@ a{
     position: absolute;
 }
 
-/* 공통 css */
-body {
-    background-color: yellowgreen;
-    font-family: 'SpoqaHanSansNeo-Regular';
-    height: 100vh;
-    display: flex;
-
-    align-items: center;
+/* reset ----------------------- */
+h1, h2, p, label, button, a {
+    padding: unset;
+    margin: unset;
+    font-size: unset;
+    color: unset;
+    font-weight: unset;
 }
 
+img {
+    vertical-align: top;
+}
+
+button {
+    border:none;
+    background-color: unset;
+}
+
+input {
+    margin: 0;
+    padding: unset;
+    border: none;
+    box-sizing: unset;
+    -webkit-appearance : none;
+
+    -moz-appearance:none;
+
+    appearance:none;
+
+    font-size: unset;
+    color: unset;
+    font-weight: unset;
+}
+
+a {
+    text-decoration: unset;
+    font-size: unset;
+    color: unset;
+    font-weight: unset;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style: none;
+    margin: unset;
+    padding: unset;
+}
+
+/* 공통 css ---------------------- */
+body {
+    font-family: 'SpoqaHanSansNeo-Regular';
+    display: flex;
+    height: 100vh;
+}
+
+/* modal */
 .modal {
     width: 520px;
-    background-color: yellow;
-    margin: 0 auto;
-    text-align: center;
 
+    margin: auto;
+
+    border: 1px solid #C4C4C4;
     border-radius: 10px;
-    position: relative;
 }
 
+/* title */
 .title {
+    display: flex;
+    align-items: center;
     font-size: 16px;
-    color: #000000;
     font-weight: 500;
 
-    padding: 20px 0 18px;
+
+    justify-content: center;
 
     border-bottom: 1px solid #C4C4C4;
+
+    position: relative;
+
+    padding: 20px 0 18px 0;
 }
 
-.close {
-    width: 16px;
+.title .close {
     position: absolute;
 
+    width: 16px;
+    height: 16px;
+
+    background-image: url(./images/close.png);
+    background-size: 16px;
     right: 24px;
-    top: 22px;
 
     cursor: pointer;
 }
 
 /* form */
-form {
-    padding: 26px 0 20px;
-
+.form {
     width: 472px;
+
+    margin: auto;
+
+    margin-top: 26px;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.intro {
+    font-size: 20px;
+
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.input-wrapper {
+    width: 100%;
     display: flex;
     flex-direction: column;
 
-    margin: 0 auto;
-    text-align: left;
+    margin: 24px 0 16px 0;
+    gap: 10px;
 }
 
-form .intro {
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 500;
-
-    margin-bottom: 24px;
-}
-
-form input {
-    border: 1px solid #C4C4C4;
+.input-wrapper input {
+    width: 100%;
+    height: 50px;
+    border: 2px solid #F4492E;
+    box-sizing: border-box;
     border-radius: 5px;
 
-    height: 50px;
-
-    background-color: white;
-    box-sizing: border-box;
-
-    font-size: 16px;
     padding-left: 16px;
-}
-
-.id-text {
-    margin-bottom: 10px;
-}
-
-/* keep login check box */
-form label {
-    padding-left: 30px;
-    background-image: url(./images/check-box.png);
-    background-repeat: no-repeat;
-    background-position: left 0 bottom 50%;
-
     font-size: 16px;
+    font-weight: 400;
+
+    margin-bottom: 6px;
+    color: #767676;
+}
+
+/* warning message */
+[class^="warning"] {
+    font-size: 14px;
+    font-weight: 400;
+    color: #F4492E;
+}
+
+/* checkbox */
+.form label{
+    width: fit-content;
+    padding-left: 30px;
+    margin-left: 4px;
+    font-size: 16px;
+    font-weight: 500;
     color: #767676;
 
-    width: fit-content;
-    margin: 16px 0 20px 0;
+    background-image: url(./images/check-box.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: left 0 bottom 50%;
 
     cursor: pointer;
 }
@@ -144,18 +186,132 @@ form label {
 input[type="checkbox"]:checked + label {
     background-image: url(./images/check-box-true.png);
     background-repeat: no-repeat;
+    background-size: 22px;
     background-position: left 0 bottom 50%;
 }
 
-/* login button */
 .login-btn {
-    height: 50px;
+    margin-top: 20px;
     background-color: #2F80ED;
+
+    height: 50px;
     border-radius: 5px;
 
     font-size: 18px;
     font-weight: 700;
     color: #FFF;
+    line-height: 22px;
+
+    cursor: pointer;
 }
 
 /* join-find */
+.join-find {
+    display: flex;
+
+    font-size: 14px;
+    font-weight: 400;
+    color: #767676;
+
+    justify-content: center;
+    gap: 12px;
+}
+
+/* hr-text */
+.hr-text {
+    width: 472px;
+    display: flex;
+    align-items: center;
+
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    font-size: 14px;
+    font-weight: 400;
+    color: #767676;
+
+    gap: 13px;
+}
+
+.hr-text::before,
+.hr-text::after {
+    content: '';
+    height: 1px;
+    background: #C4C4C4;
+
+    flex-grow: 1;
+}
+
+/* login-wrapper */
+.login-wrapper {
+    width: 472px;
+
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.list a {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    border-radius: 5px;
+    height: 50px;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 16px;
+    font-weight: 500;
+    color: #767676;
+
+    border: 1px solid #767676;
+
+    position: relative;
+}
+
+[class^="icon"]::before {
+    position: absolute;
+    content: "";
+    left: 12px;
+    width: 28px;
+    height: 28px;
+    background-image: url(./images/css_sprites.png);
+    background-size: 96px 96px;
+}
+
+.icon-google::before {
+    background-position: -10px -58px;
+}
+
+.icon-facebook::before {
+    background-position: -58px -58px;
+}
+
+.icon-naver::before {
+    background-position: -58px -10px;
+}
+
+.icon-kakao::before {
+    background-position: -10px -10px;
+}
+
+.list .icon-facebook {
+    border: 1px solid #2D9CDB;
+}
+
+.list .icon-naver {
+    border: 1px solid #00BF18;
+}
+
+.list .icon-kakao {
+    border: 1px solid #F2C94C;
+}
