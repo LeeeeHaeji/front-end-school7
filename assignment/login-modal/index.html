@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인/회원가입 모달</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <article class="modal">
+        <h1 class="title">
+            로그인 또는 회원가입
+            <button type="button" class="close"></button>
+        </h1>
+        
+        <form class="form">
+            <p class="intro">위니브에서 여러분의 궁금증을 해결하세요! :)</p>
+            <div class="input-wrapper">
+                <div class="id">
+                    <input class="id-text" type="text" placeholder="아이디" required>
+                    <p class="warning-id">아이디를 입력해 주세요.</p>
+                </div>
+                <div class="pwd">
+                    <input type="password" placeholder="비밀번호" required>
+                    <p class="warning-pwd">비밀번호를 입력해 주세요.</p>
+                </div>
+                <p class="warning-id-pwd">아이디 혹은 비밀번호가 일치하지 않습니다.</p>
+            </div>
+
+            <input class="a11y-hidden" type="checkbox" id="keep-login">
+            <label for="keep-login">로그인 상태 유지</label>
+
+            <button class="login-btn" type="submit">로그인</button>
+        </form>
+
+        <div class="join-find">
+            <a href="#">회원가입</a>
+            <span>|</span>
+            <a href="#">아이디/비밀번호 찾기</a>
+        </div>
+
+        <p class="hr-text">또는</p>
+
+        <section class="login-wrapper">
+            <h2 class="a11y-hidden">
+                소셜 계정으로 로그인
+            </h2>
+            <ul class="list">
+                <li>
+                    <a href="#" class="icon-google">
+                        구글 계정으로 로그인
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="icon-facebook">
+                        페이스북 계정으로 로그인
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="icon-naver">
+                        네이버 계정으로 로그인
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="icon-kakao">
+                        카카오톡 계정으로 로그인
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </article>
+</body>
+</html>
